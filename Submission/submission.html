@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace</title>
+    <link rel="stylesheet" href="submission.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-1">
+            <a href="../index.html" class="logo"><i class="fas fa-book"></i>Peace Books</a>
+             <!-- <a href="#" class="logo"> <img width="15px" src="Peace Contract logo.png" alt="">Peace</a> -->
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here...." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="../index.html">home</a>
+                <a href="../Featured/Featured.html">Featured</a>
+                <a href="../Authors/authors.html">authors</a>
+                <a href="#submission">submission</a>
+                <a href="../blog/blog.html">blogs</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="../index.html" class="fas fa-home"></a>
+        <a href="../Featured/Featured.html" class="fas fa-list"></a>
+        <a href="../Authors/authors.html" class=" fas fa-user-edit"></a>
+        <a href="#submission" class="fas fa-upload"></a>
+        <a href="../blog/blog.html" class=" fas fa-blog"></a>
+
+    </nav>
+
+
+        <div class="submission-container">
+            <h1>Book Submission</h1>
+            <p>Please fill out the form below to submit your manuscript to our publishing firm.</p>
+            <h2>Submission Instructions</h2>
+            <ol>
+                <li><strong>Author Name:</strong> Enter your full legal name. This will be used for official correspondence.</li>
+                <li><strong>Author Email:</strong> Provide a valid email address. We will use this to communicate with you regarding your submission.</li>
+                <li><strong>Book Title:</strong> Enter the title of your book. Make sure it matches the title on your manuscript.</li>
+                <li><strong>Book Genre:</strong> Specify the genre of your book (e.g., Fiction, Non-Fiction, Fantasy, etc.).</li>
+                <li><strong>Synopsis:</strong> Provide a brief summary of your book. This should be a concise overview of the main plot points and characters.</li>
+                <li><strong>Manuscript:</strong> Upload your manuscript as a PDF file. Ensure that the file is formatted correctly and follows our submission guidelines.</li>
+            </ol>
+            <h2>Submission Form</h2>
+            <form id="submissionForm" action="https://your-submittable-link.com/submit" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="authorName">Author Name</label>
+                    <input type="text" id="authorName" name="authorName" required>
+                </div>
+                <div class="form-group">
+                    <label for="authorEmail">Author Email</label>
+                    <input type="email" id="authorEmail" name="authorEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookTitle">Book Title</label>
+                    <input type="text" id="bookTitle" name="bookTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookGenre">Book Genre</label>
+                    <input type="text" id="bookGenre" name="bookGenre" required>
+                </div>
+                <div class="form-group">
+                    <label for="synopsis">Synopsis</label>
+                    <textarea id="synopsis" name="synopsis" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="manuscript">Manuscript (PDF)</label>
+                    <input type="file" id="manuscript" name="manuscript" accept=".pdf" required>
+                </div>
+                <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Submit</button>
+            </form>
+        </div>
+    </body>
+    </html>
+
+
+
+             <!-- Footer Section -->
+    <footer>
+        <section class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>our location</h3>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Nigeria</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Ghana</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> USA</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> United Kingdom</a>
+                    <!-- Add many as you can -->
+                    <img width="300" src="../homeimage/World_map_green.png" class="map" alt="World Map">
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                    <a href="#featured"><i class="fas fa-arrow-right"></i> featured</a>
+                    <a href="#arrivals"><i class="fas fa-arrow-right"></i> arrivals</a>
+                    <a href="#authors"><i class="fas fa-arrow-right"></i> authors</a>
+                    <a href="#submission"><i class="fas fa-arrow-right"></i> submission</a>
+                    <a href="#contact"><i class="fas fa-arrow-right"></i> contact</a>
+                    <a href="#blogs"><i class="fas fa-arrow-right"></i> blogs</a>
+                    <!-- Add many as you can -->
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i> account info.</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> ordered items</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> privacy policy</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> payment method</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> our services</a>
+                    <!-- Add more links as needed -->
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="tel:+2348144954091"><i class="fas fa-phone"></i> +2348144954091</a>
+                    <a href="tel:+2348144954091"><i class="fas fa-phone"></i> +2348144954091</a>
+                    <a href="mailto:publishwithpeace_pub@outlook.com"><i class="fas fa-envelope"></i> publishwithpeace_pub@outlook.com</a>
+                    <!-- Add more links as needed -->
+                    
+                </div>
+            </div>
+            <div class="share">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+            <div class="credit"> &copy;<span> 2024 Peace Publishers Inc.</span> all rights reserved</div> <br><br>
+        </section>
+    
+
+              <!-- WhatsApp Icon and Link  -->
+
+        <!-- <div class="whatsapp-chat-container">
+            <a href="https://wa.me/+2348144954091?text=Hi%2C%20can%20I%20help%20you%3F" class="whatsapp-chat-button" target="_blank">
+                <i class="fab fa-whatsapp"></i> Hi, How can we help you?
+            </a>
+        </div> -->
+     
+   
+      
+    </footer>
+   
+     
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="../script.js"></script>
+</body>
+</html>

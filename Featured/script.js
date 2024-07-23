@@ -37,7 +37,7 @@ var booksSwiper = new Swiper(".books-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 3000,
+        delay: 9500,
         disableOnInteraction: false,
     },
     breakpoints: {
@@ -52,27 +52,6 @@ var booksSwiper = new Swiper(".books-slider", {
         },
     },
 });
-
-// let booksSwiper = new Swiper(".books-slider", {
-//     loop: true,
-//     spaceBetween: -24,
-//     centeredSlides: true,
-//     grabCursor: true,
-//     slidesPerView: "auto",
-//     centeredSlides: true,  // Changed to a boolean
-
-//     autoplay: {
-//         delay: 3000,
-//         disableOnInteraction: false,
-//     },
-//     breakpoints: {
-//         1220: {
-//             spaceBetween: -32,
-//         }
-//     }
-// });
-
-
 
 var featuredSwiper = new Swiper(".featured-slider", {
     spaceBetween: 10,
@@ -129,7 +108,7 @@ var authorsSwiper = new Swiper(".authors-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 3000,
+        delay: 9500,
         disableOnInteraction: false,
     },
     breakpoints: {
@@ -151,7 +130,7 @@ var blogsSwiper = new Swiper(".blogs-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 3000,
+        delay: 9500,
         disableOnInteraction: false,
     },
     breakpoints: {
